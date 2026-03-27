@@ -84,7 +84,7 @@ export default function Home() {
               { icon: Users, value: "500+", label: t.stats.clients },
               { icon: Target, value: "5+", label: t.stats.experience },
               { icon: TrendingUp, value: "15kg", label: t.stats.loss },
-              { icon: Activity, value: "95%", label: t.stats.success },
+              { icon: Activity, value: "100%", label: t.stats.success },
             ].map((stat, i) => (
               <motion.div 
                 key={i}
