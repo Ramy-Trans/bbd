@@ -77,7 +77,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-card border-y border-white/5 relative z-20 -mt-10 mx-4 md:mx-auto max-w-6xl rounded-3xl shadow-2xl">
+      <section className="py-20 bg-card border-y border-white/5 relative z-20 mt-16 mx-4 md:mx-auto max-w-6xl rounded-3xl shadow-2xl">
         <div className="px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
