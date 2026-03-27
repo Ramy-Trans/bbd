@@ -1,0 +1,15 @@
+# Netlify deployment configuration for Big Bad Dawy fitness website
+# Connect your GitHub repo to Netlify with default settings — this file handles everything.
+
+[build]
+  command   = "pnpm --filter @workspace/fitness-website run build:netlify"
+  publish   = "artifacts/fitness-website/dist/public"
+
+[build.environment]
+  NODE_VERSION = "20"
+  PNPM_VERSION = "10"
+
+[[redirects]]
+  from = "/*"
+  to   = "/index.html"
+  status = 200
