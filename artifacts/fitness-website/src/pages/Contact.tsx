@@ -39,7 +39,7 @@ export default function Contact() {
           </motion.a>
 
           <motion.a 
-            href="https://instagram.com" 
+            href="https://www.instagram.com/bigbad_dawy/" 
             target="_blank" 
             rel="noreferrer"
             initial={{ opacity: 0, y: 20 }}
@@ -53,7 +53,7 @@ export default function Contact() {
             </div>
             <h3 className="text-xl font-bold text-white">Instagram</h3>
             <p className="text-muted-foreground text-sm">{t.contact.instagram}</p>
-            <span className="mt-2 font-medium text-[#E1306C]">@bigbaddawy</span>
+            <span className="mt-2 font-medium text-[#E1306C]">@bigbad_dawy</span>
           </motion.a>
 
           <motion.a 

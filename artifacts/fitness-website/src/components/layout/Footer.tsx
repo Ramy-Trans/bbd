@@ -52,9 +52,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com" target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-primary transition-colors">
+                <a href="https://www.instagram.com/bigbad_dawy/" target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-primary transition-colors">
                   <Instagram className="w-4 h-4" />
-                  @bigbaddawy
+                  @bigbad_dawy
                 </a>
               </li>
               <li>
