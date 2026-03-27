@@ -1,0 +1,14 @@
+packages:
+  "framer-motion": "For smooth page transitions and scroll animations"
+  "react-hook-form": "For robust form state management in the Apply and Contact pages"
+  "@hookform/resolvers": "To integrate Zod validation with react-hook-form"
+  "zod": "For strict schema validation of form inputs"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to resolve Tailwind CSS class conflicts"
+
+images: []
+
+notes:
+  - "Using pre-generated hooks from @workspace/api-client-react for API interactions."
+  - "Images (logo, coach, transform) are assumed to be in the public directory and accessible via absolute paths."
+  - "RTL support implemented via a Context provider that toggles the HTML dir attribute and updates translations."

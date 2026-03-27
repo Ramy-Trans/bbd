@@ -4,6 +4,18 @@
 
 pnpm workspace monorepo using TypeScript. Each package manages its own dependencies.
 
+## Artifacts
+
+### `artifacts/fitness-website` — Big Bad Dawy Fitness Coaching Website
+Premium multi-page fitness coaching website for Mohamed Eldawy (Big Bad Dawy / BBD).
+- React + Vite, Tailwind CSS, Framer Motion
+- Dark premium theme (#0f0f0f bg, gold #FFD700 accent)
+- Big Bad Dawy logo in navbar
+- Arabic/English language toggle (RTL support)
+- Pages: Home, Transformations, Programs, About, Apply, Blog, Contact
+- Floating WhatsApp button
+- Application form submits to POST /api/applications
+
 ## Stack
 
 - **Monorepo tool**: pnpm workspaces

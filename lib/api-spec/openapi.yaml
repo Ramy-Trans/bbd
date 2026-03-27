@@ -1,15 +1,16 @@
 openapi: 3.1.0
 info:
-  # Do not change the title, if the title changes, the import paths will be broken
   title: Api
   version: 0.1.0
-  description: API specification
+  description: API specification for Big Bad Dawy fitness coaching website
 servers:
   - url: /api
     description: Base API path
 tags:
   - name: health
     description: Health operations
+  - name: applications
+    description: Coaching application operations
 paths:
   /healthz:
     get:
@@ -24,6 +25,44 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /applications:
+    post:
+      operationId: submitApplication
+      tags: [applications]
+      summary: Submit coaching application
+      description: Submit a coaching application form
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ApplicationInput"
+      responses:
+        "201":
+          description: Application submitted successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApplicationResponse"
+        "400":
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+    get:
+      operationId: getApplications
+      tags: [applications]
+      summary: Get all applications
+      responses:
+        "200":
+          description: List of applications
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Application"
 components:
   schemas:
     HealthStatus:
@@ -33,4 +72,79 @@ components:
           type: string
       required:
         - status
-
+    ApplicationInput:
+      type: object
+      properties:
+        name:
+          type: string
+        age:
+          type: integer
+        height:
+          type: string
+        weight:
+          type: string
+        goal:
+          type: string
+        experienceLevel:
+          type: string
+        whatsapp:
+          type: string
+      required:
+        - name
+        - age
+        - height
+        - weight
+        - goal
+        - experienceLevel
+        - whatsapp
+    Application:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        age:
+          type: integer
+        height:
+          type: string
+        weight:
+          type: string
+        goal:
+          type: string
+        experienceLevel:
+          type: string
+        whatsapp:
+          type: string
+        createdAt:
+          type: string
+      required:
+        - id
+        - name
+        - age
+        - height
+        - weight
+        - goal
+        - experienceLevel
+        - whatsapp
+        - createdAt
+    ApplicationResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+        message:
+          type: string
+        id:
+          type: integer
+      required:
+        - success
+        - message
+        - id
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required:
+        - error

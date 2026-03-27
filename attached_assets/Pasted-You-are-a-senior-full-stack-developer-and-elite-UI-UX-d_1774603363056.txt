@@ -1,0 +1,359 @@
+You are a senior full-stack developer and elite UI/UX designer.
+
+Build a premium, highly animated, multi-page website for an online fitness coach.
+
+Brand Name: Mohamed Eldawy 
+Niche: Online fitness coaching and body transformations
+Audience: Young men (16–30) who want aesthetic physiques, fat loss, muscle gain, and lifestyle transformation.
+
+The website must look extremely modern, premium, and high-converting, similar to top fitness brands.
+
+This is NOT just a landing page. It must be a complete multi-page website.
+
+------------------------------------------------
+
+TECH STACK
+
+Frontend:
+React (Vite)
+Tailwind CSS
+Framer Motion (for animations)
+
+Backend:
+Node.js
+Express
+
+Database:
+Simple JSON or lightweight DB for storing leads/applications.
+
+Include clear project structure.
+
+------------------------------------------------
+
+DESIGN SYSTEM
+
+Theme:
+Dark premium theme
+
+Colors:
+Background: #0f0f0f
+Secondary: #1a1a1a
+Accent: Electric blue (#00BFFF) or Gold (#FFD700)
+
+Style:
+Modern luxury fitness brand
+
+Visual style inspiration:
+- Apple-level smoothness
+- High-end fitness brands
+- Gymshark style modern UI
+
+UI characteristics:
+- Glassmorphism cards
+- Soft shadows
+- Smooth gradients
+- Hover animations everywhere
+- Micro-interactions
+
+Typography:
+Bold strong headings
+Clean modern body text
+
+------------------------------------------------
+
+WEBSITE STRUCTURE (MULTI PAGE)
+
+Pages:
+
+1. Home
+2. Transformations
+3. Coaching Programs
+4. About Mohamed
+5. Client Results
+6. Apply For Coaching
+7. Blog / Fitness Tips
+8. Contact
+
+------------------------------------------------
+
+PAGE 1: HOME
+
+Sections:
+
+Hero Section:
+Full screen hero
+Background video/image placeholder
+Headline:
+"Transform Your Body. Become Your Best Version."
+
+Subheadline:
+"Online coaching that delivers real transformations."
+
+CTA buttons:
+Start Your Transformation
+View Results
+
+Animations:
+Hero elements fade-in
+Button glow on hover
+Scroll indicator animation
+
+------------------------------------------------
+
+Social Proof Section
+
+Animated counters:
+
+Clients Transformed
+Years Experience
+Average Fat Loss
+Success Rate
+
+Numbers count up when scrolling.
+
+------------------------------------------------
+
+Transformation Highlights
+
+Before/after slider
+Hover animation
+Smooth reveal
+
+CTA:
+"See All Transformations"
+
+------------------------------------------------
+
+How The Coaching Works
+
+Step cards with icons:
+
+1 Apply
+2 Get Custom Plan
+3 Transform
+
+Cards animate when scrolling into view.
+
+------------------------------------------------
+
+Testimonials Carousel
+
+Client photos
+Short quotes
+Auto sliding animation.
+
+------------------------------------------------
+
+Call to Action
+
+Large motivational section:
+
+"Your transformation starts today."
+
+Large CTA button.
+
+------------------------------------------------
+
+PAGE 2: TRANSFORMATIONS
+
+Grid gallery of transformations.
+
+Each card contains:
+
+Before photo
+After photo
+Client name
+Transformation time
+Fat loss/muscle gain stats
+
+Hover animation:
+Zoom
+Overlay details
+
+Add category filters:
+
+Fat Loss
+Muscle Gain
+Body Recomposition
+
+Add animated masonry grid.
+
+------------------------------------------------
+
+PAGE 3: COACHING PROGRAMS
+
+Pricing cards:
+
+Basic Coaching
+Pro Coaching
+Elite Coaching
+
+Each card includes:
+
+Features
+Duration
+Price placeholder
+Join button
+
+Middle plan highlighted as MOST POPULAR.
+
+Hover effect:
+Card lifts
+Glow border
+
+------------------------------------------------
+
+PAGE 4: ABOUT MOHAMED
+
+Coach introduction page.
+
+Sections:
+
+Hero image
+Story section
+Mission statement
+Philosophy
+
+Add timeline animation showing his journey.
+
+------------------------------------------------
+
+PAGE 5: CLIENT RESULTS
+
+Video testimonial section.
+
+Client story cards:
+
+Photo
+Short story
+Results achieved.
+
+Scrolling animations.
+
+------------------------------------------------
+
+PAGE 6: APPLY FOR COACHING
+
+High-converting application funnel.
+
+Form fields:
+
+Name
+Age
+Height
+Weight
+Goal
+Experience level
+WhatsApp number
+
+Backend endpoint:
+
+POST /applications
+
+Store application data.
+
+After submission show:
+
+"Application received. Mohamed will contact you."
+
+------------------------------------------------
+
+PAGE 7: BLOG
+
+Fitness content page.
+
+Articles:
+
+Fat loss tips
+Muscle building
+Training advice
+Nutrition tips
+
+Cards with featured images.
+
+------------------------------------------------
+
+PAGE 8: CONTACT
+
+Contact form
+WhatsApp link
+Instagram link.
+
+------------------------------------------------
+
+GLOBAL FEATURES
+
+Sticky navigation bar
+Animated scroll transitions
+Floating WhatsApp button
+Smooth scrolling
+Mobile-first design
+
+------------------------------------------------
+
+ADVANCED ANIMATIONS
+
+Use Framer Motion for:
+
+Page transitions
+Scroll-triggered animations
+Card hover effects
+Image zoom effects
+CTA button glow
+Section fade-in
+
+Add subtle parallax effects.
+
+------------------------------------------------
+
+CONVERSION OPTIMIZATION
+
+Multiple CTA buttons on every page.
+Urgency text:
+
+"Limited coaching spots available."
+
+Lead capture form.
+
+Sticky CTA on mobile.
+
+------------------------------------------------
+
+ADMIN EDITABILITY
+
+Make these easy to replace:
+
+Coach photos
+Transformation images
+Pricing
+Text content
+
+Store content in simple config file.
+
+------------------------------------------------
+
+RESPONSIVE DESIGN
+
+Fully optimized for:
+
+Mobile
+Tablet
+Desktop
+
+------------------------------------------------
+
+PERFORMANCE
+
+Lazy load images.
+Optimize loading speed.
+Clean structured code.
+
+------------------------------------------------
+
+FINAL RESULT
+
+The website should feel like a premium online fitness brand platform, extremely polished and animated.
+
+It should be high-converting and look expensive enough to justify a 15,000–25,000 EGP project.
+
+Generate complete working code for frontend and backend with clear instructions to run on Replit.
